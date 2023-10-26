@@ -9,7 +9,7 @@ slug: ai-for-community-building
 url: /ai-for-community-building
 ---
 
-Hey folks, Jonas here writing again! I had a great time last week giving a talk at AllThingsOpen down in Raleigh, NC, and wanted to share some of the discussions I was a part of around AI and open source. For those who don't know me, I'm the [Head of Open Source Community Management over at VMware](/about) and I'm also the Executive Director at a non-profit called [Hit Save! focused on video game preservation and history](https://hitsave.org).
+Hey folks, Jonas here writing again! I had a great time last week giving a talk at AllThingsOpen down in Raleigh, NC, and wanted to share some of the discussions I was a part of around AI and open source. For those who don't know me, I'm the [Head of Open Source Community Management over at VMware](/resume) and I'm also the Executive Director at a non-profit called [Hit Save! focused on video game preservation and history](https://hitsave.org).
 
 My presentation was called [Community First: Using ChatGPT to Build Strong Open Source Communities](https://2023.allthingsopen.org/sessions/community-first-using-chatgpt-to-build-strong-open-source-communities/). As someone passionate about open source, I wanted to share how AI tools like [ChatGPT](https://chat.openai.com/), [Claude](https://claude.ai/), [Docsbot](https://docsbot.ai/), [Faster Whisper](https://github.com/guillaumekln/faster-whisper), and many more, could help bring people together.
 
