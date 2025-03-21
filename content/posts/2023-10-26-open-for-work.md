@@ -7,6 +7,7 @@ image: images/open-for-work.jpg
 date: 2023-10-26
 slug: open-for-work
 url: /open-for-work
+draft: true
 ---
 
 Hey folks, Jonas here! For those who don't know me, I'm currently the [Head of Open Source Community Management over at VMware](/resume) and also serve as the Executive Director of [Hit Save!, a non-profit focused on video game preservation and history](https://hitsave.org).
