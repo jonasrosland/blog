@@ -11,8 +11,31 @@ weight: 8
 
 # Work and leadership experience
 
+## Director of Community, VAST Data
+### Boston, USA - 2024-current
+
+Leading community development and engagement initiatives focused on building the Cosmos Community around VAST Data's technology ecosystem. Responsible for creating developer and DevOps-focused educational content, hands-on workshops, and technical labs that enable developers, DevOps engineers, and data professionals to effectively adopt and contribute to VAST Data's platform.
+
+Major accomplishments:
+
+- Building and scaling the Cosmos Community, a customer-focused community around the VAST Data platform
+- Developing comprehensive developer and DevOps education programs including hands-on workshops and technical labs
+- Creating engaging content and resources that help developers and DevOps engineers understand and implement VAST Data solutions
+- Establishing community engagement strategies that foster collaboration and knowledge sharing among developers, DevOps engineers, and data professionals
+
+## Director of Community, CIQ
+### Boston, USA - 2024
+
+Part of the team responsible for community engagement and development efforts for the Rocky Linux community, focusing on building and nurturing a vibrant open source ecosystem around the Rocky Linux distribution. Worked to strengthen community relationships, improve contributor onboarding, and enhance the overall community experience for Rocky Linux users and contributors.
+
+Major accomplishments:
+
+- Developed strategies to improve contributor onboarding and community participation
+- Created content and resources to help users and contributors better understand and contribute to Rocky Linux
+- Collaborated with the broader Rocky Linux team to align community efforts with project goals and technical roadmap
+
 ## Head of Open Source Community Management, VMware
-### Boston, USA - 2020-current
+### Boston, USA - 2020-2024
 
 The Community Management Team was instrumental to creating stable and enduring communities around several of the open source projects the Tanzu portfolio is built upon. Our community management team evolved from part-time work into a critical function, translating an evolving Tanzu strategy into focus areas, frameworks, and actionable work to drive community engagement. My team is spread out across 3 continents, supporting global open source projects.
 
