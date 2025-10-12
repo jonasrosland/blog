@@ -3,7 +3,6 @@ layout: post
 title: "Engaging the Silent Community Members: Insights from AllThingsOpen's Community Leadership Summit"
 description: "Lessons learned from community leaders on bringing silent community members into active participation."
 tags: [community, open source, engagement, leadership]
-image: images/community-first.jpg
 date: 2025-10-12
 slug: engaging-the-silent-community-members
 url: /engaging-the-silent-community-members
