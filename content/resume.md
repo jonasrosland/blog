@@ -11,6 +11,22 @@ weight: 8
 
 # Work and leadership experience
 
+## Director of Open Source Programs, Sysdig
+### Boston, USA - 2025-current
+
+Leading open source community development and engagement initiatives focused on [Falco and its ecosystem](https://falco.org).
+Managing Sysdig's open source messaging, investments, and presence at events such as KubeCon/CloudNativeCon.
+Responsible for delivering IRL and online hands-on workshops for Falco, giving everyone a hands-on experience with Falco and its ecosystem.
+Gathering and organizing open source community data into useful metrics using CommonRoom and Scarf. 
+
+Major accomplishments:
+
+- Building out Sysdig's go-to-market strategy for Falco Feeds, and enabling the entire salesforce through messaging exercises and online training modules.
+- Organizing and financing a [significant monetary donation to the Linux Foundation of $70,000](https://www.sysdig.com/press-releases/sysdig-celebrates-falco-10-year-anniversary-with-donation) for use within the Falco project to enable:
+  - **Feature development grants** to speed the delivery of new capabilities
+  - **Contributor stipends** to recognize and retain key contributors
+  - **Technical writer stipends** to improve both documentation and user experience
+
 ## Director of Community, VAST Data
 ### Boston, USA - 2024-current
 
