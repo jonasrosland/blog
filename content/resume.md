@@ -1,15 +1,21 @@
 ---
-title: "About me"
+title: "Résumé"
+type: resume
+headline: "Open Source Community & Programs Leader"
+description: "Professional résumé for Jonas Rosland — open source community leader and developer advocate."
 image: "images/jonasrosland.jpg"
-weight: 8
 ---
 
 ### Contact methods in order of preference:
  - [jonas.rosland@gmail.com](mailto:jonas.rosland@gmail.com)
-   - [Schedule a meeting](https://cal.com/jonasrosland)
- - [@jonasrosland](https://twitter.com/jonasrosland)
+ - [LinkedIn](https://linkedin.com/in/jonasrosland/)
+ - [Schedule a meeting on cal.com](https://cal.com/jonasrosland)
 
-# Work and leadership experience
+### Summary
+
+20+ years building and leading open source communities at scale — from developer advocacy at Dell to heading global community management for the Tanzu portfolio at VMware, community leadership for Rocky Linux at CIQ and the Cosmos community at VAST Data, and now directing open source programs for Falco at Sysdig. Known for community-first strategy, contributor growth, hands-on workshops, and bridging engineering, marketing, and executive stakeholders. Speaker and practitioner on using AI thoughtfully in community programs with a focus on augmenting teams, not replacing them. Based in Boston, and active in the CNCF and Kubernetes ecosystem.
+
+### Work and leadership experience
 
 ## Director of Open Source Programs, Sysdig
 ### Boston, USA - 2025-current
@@ -19,32 +25,35 @@ Managing Sysdig's open source messaging, investments, and presence at events suc
 Responsible for delivering IRL and online hands-on workshops for Falco, giving everyone a hands-on experience with Falco and its ecosystem.
 Gathering and organizing open source community data into useful metrics using CommonRoom and Scarf. 
 
-Major accomplishments:
-
+#### Major accomplishments
 - Building out Sysdig's go-to-market strategy for Falco Feeds, and enabling the entire salesforce through messaging exercises and online training modules.
 - Organizing and financing a [significant monetary donation to the Linux Foundation of $70,000](https://www.sysdig.com/press-releases/sysdig-celebrates-falco-10-year-anniversary-with-donation) for use within the Falco project to enable:
   - **Feature development grants** to speed the delivery of new capabilities
   - **Contributor stipends** to recognize and retain key contributors
   - **Technical writer stipends** to improve both documentation and user experience
+- Delivered internal training on AI-assisted workflows for marketing and community teams
+- Authored ["From Noise to Signal: Using Runtime Context to Win the Vulnerability Management Battle"](https://openssf.org/blog/2026/04/15/from-noise-to-signal-using-runtime-context-to-win-the-vulnerability-management-battle/) on the OpenSSF blog — on combining static analysis with runtime intelligence and Falco to prioritize exploitable vulnerabilities in production
 
 ## Director of Community, VAST Data
-### Boston, USA - 2024-current
+### Boston, USA - 2024-2025
 
 Leading community development and engagement initiatives focused on building the Cosmos Community around VAST Data's technology ecosystem. Responsible for creating developer and DevOps-focused educational content, hands-on workshops, and technical labs that enable developers, DevOps engineers, and data professionals to effectively adopt and contribute to VAST Data's platform.
 
-Major accomplishments:
+#### Major accomplishments
 
 - Building and scaling the Cosmos Community, a customer-focused community around the VAST Data platform
 - Developing comprehensive developer and DevOps education programs including hands-on workshops and technical labs
 - Creating engaging content and resources that help developers and DevOps engineers understand and implement VAST Data solutions
 - Establishing community engagement strategies that foster collaboration and knowledge sharing among developers, DevOps engineers, and data professionals
+- Presented ["AI-First Community Design: Let's Build Together"](https://2025.allthingsopen.org/sessions/ai-first-community-design-lets-build-together) at AllThingsOpen 2025 — interactive session on AI-native community architecture, knowledge systems, and health monitoring
+- Led a Community Leadership Summit session at AllThingsOpen 2025 on [engaging silent community members](https://jonasrosland.com/engaging-the-silent-community-members/) in open source communities
 
 ## Director of Community, CIQ
 ### Boston, USA - 2024
 
 Part of the team responsible for community engagement and development efforts for the Rocky Linux community, focusing on building and nurturing a vibrant open source ecosystem around the Rocky Linux distribution. Worked to strengthen community relationships, improve contributor onboarding, and enhance the overall community experience for Rocky Linux users and contributors.
 
-Major accomplishments:
+#### Major accomplishments
 
 - Developed strategies to improve contributor onboarding and community participation
 - Created content and resources to help users and contributors better understand and contribute to Rocky Linux
@@ -53,23 +62,24 @@ Major accomplishments:
 ## Head of Open Source Community Management, VMware
 ### Boston, USA - 2020-2024
 
-The Community Management Team was instrumental to creating stable and enduring communities around several of the open source projects the Tanzu portfolio is built upon. Our community management team evolved from part-time work into a critical function, translating an evolving Tanzu strategy into focus areas, frameworks, and actionable work to drive community engagement. My team is spread out across 3 continents, supporting global open source projects.
+The Community Management Team was instrumental to creating stable and enduring communities around several of the open source projects the Tanzu portfolio was built upon. The community management team evolved from part-time work into a critical function, translating an evolving Tanzu strategy into focus areas, frameworks, and actionable work to drive community engagement. My team was spread out across 3 continents, supporting global open source projects.
 
-My team operates under one guiding principle: Community first. We ensure open source project maintainers and anyone involved in the projects are transparent with the community around upcoming changes and decisions, focusing on public feedback, and working together to ensure VMware’s goals align with the community’s. We have made VMware’s open source projects not just popular within the cloud native space, but also seen as welcoming for users and contributors across the globe by consistently focusing on the community and our brand awareness.
+My team operated under one guiding principle: Community first. We ensured open source project maintainers and anyone involved in the projects were transparent with the community around upcoming changes and decisions, focusing on public feedback, and working together to ensure VMware’s goals aligned with the community’s. We made VMware’s open source projects not just popular within the cloud native space, but also seen as welcoming for users and contributors across the globe by consistently focusing on the community and our brand awareness.
 
-[Our processes around open source guidelines and community health checks are now open sourced and shared with the community.](https://github.com/vmware-tanzu/community-engagement)
+[Our processes around open source guidelines and community health checks were open sourced and shared with the community.](https://github.com/vmware-tanzu/community-engagement)
 
-Major accomplishments:
+#### Major accomplishments
 
-- Building a diverse team of open source community managers and technical documentation writers, across 3 continents and 8 time zones.
-- Learning, practicing, and fine-tuning how to ease the team’s anxiety during change, reorganizations, and shifting priorities.
-- Leading the open source community management team across organizational boundaries for [Tanzu Community Edition (TCE)](https://tanzucommunityedition.io/), [Contour](https://projectcontour.io/), [Harbor](https://goharbor.io/), [Pinniped](https://pinniped.dev/), [Velero](https://velero.io/), [Cartographer](https://cartographer.sh/), [Carvel](https://carvel.dev/), and [Paketo](https://paketo.io/) to drive worldwide users, contributors, and maintainers for OSS projects that the Tanzu portfolio is built upon.
-- Leading the open source technical documentation team responsible for the delivery of technical documentation for TCE, Harbor, and Velero, and building out a community-driven model of documentation standards that all Tanzu portfolio open source projects can follow to create high quality, user-focused documentation.
-- Act as part of the Tanzu OSS advisors, creating consistency within OSS projects across the Tanzu portfolio. By enabling the project teams well in advance before a project becomes publicly open source, we help the teams to be prepared to handle new communication flows with external users and contributors, how to engage with and enable new contributors, and how to evolve the perception of VMware in the open source space.
-- Act as the community management bridge to the Open Source Program Office, Office of the CTO, multiple BUs, Global Brand, and upstream CNCF/Kubernetes community efforts.
-- Building trust to receive funding across domains and previous pillars to expand the scope of the community management and technical documentation team, widening the breadth of technical complexity amongst open source projects.
-- Spearheading the community engagement health checks initiative, building a way for my team of community managers to regularly provide project teams with clear measurements on whether a project is failing or succeeding in meeting their engagement goals, and offer actionable tasks to course correct if needed, leading to a 2-3x contributor growth in the past 3 years. Maintainers and PMs sign off on improvements to be implemented to further enhance the community health within topics such as release cadence, documentation quality, and maintainer attentiveness.
-- Driving a company-wide implementation of a common template and process using Hugo and Netlify for all our open source project websites, to easily create and manage documentation and resources for projects.
+- Built a diverse team of open source community managers and technical documentation writers, across 3 continents and 8 time zones.
+- Learned, practiced, and fine-tuned how to ease the team’s anxiety during change, reorganizations, and shifting priorities.
+- Led the open source community management team across organizational boundaries for [Tanzu Community Edition (TCE)](https://tanzucommunityedition.io/), [Contour](https://projectcontour.io/), [Harbor](https://goharbor.io/), [Pinniped](https://pinniped.dev/), [Velero](https://velero.io/), [Cartographer](https://cartographer.sh/), [Carvel](https://carvel.dev/), and [Paketo](https://paketo.io/) to drive worldwide users, contributors, and maintainers for OSS projects that the Tanzu portfolio was built upon.
+- Led the open source technical documentation team responsible for the delivery of technical documentation for TCE, Harbor, and Velero, and built out a community-driven model of documentation standards that all Tanzu portfolio open source projects could follow to create high quality, user-focused documentation.
+- Acted as part of the Tanzu OSS advisors, creating consistency within OSS projects across the Tanzu portfolio. By enabling the project teams well in advance before a project became publicly open source, we helped the teams to be prepared to handle new communication flows with external users and contributors, how to engage with and enable new contributors, and how to evolve the perception of VMware in the open source space.
+- Acted as the community management bridge to the Open Source Program Office, Office of the CTO, multiple BUs, Global Brand, and upstream CNCF/Kubernetes community efforts.
+- Built trust to receive funding across domains and previous pillars to expand the scope of the community management and technical documentation team, widening the breadth of technical complexity amongst open source projects.
+- Spearheaded the community engagement health checks initiative, building a way for my team of community managers to regularly provide project teams with clear measurements on whether a project was failing or succeeding in meeting their engagement goals, and offer actionable tasks to course correct if needed, leading to 2-3x contributor growth over three years. Maintainers and PMs signed off on improvements to be implemented to further enhance the community health within topics such as release cadence, documentation quality, and maintainer attentiveness.
+- Drove a company-wide implementation of a common template and process using Hugo and Netlify for all our open source project websites, to easily create and manage documentation and resources for projects.
+- Presented ["Community First: Using ChatGPT to Build Strong Open Source Communities"](https://2023.allthingsopen.org/sessions/community-first-using-chatgpt-to-build-strong-open-source-communities/) at AllThingsOpen 2023 — session on thoughtfully applying AI tools to community engagement, documentation, and maintainer workflows
 
 ## Executive Director, Hit Save!
 ### Boston, USA - 2020-current
@@ -82,17 +92,17 @@ Hit Save! is a registered 501(c)(3) non-profit dedicated to the preservation of 
 As part of the Open Source Community Engagement team at VMware, I led the creation and execution of open source community health guidelines and metrics.
 This was done as part of the transformation of VMware into a more open source-focused organization.
 
-Major accomplishments:
+#### Major accomplishments
 
-- Creating and executing on open source community engagement strategies, guidelines, and measurements, to grow projects and teams into positive contributors in the open source space
-- Planning, leading development contractors, and launch of multiple public websites for open source projects:
+- Created and executed on open source community engagement strategies, guidelines, and measurements, to grow projects and teams into positive contributors in the open source space
+- Planned, led development contractors, and launched multiple public websites for open source projects:
   - https://goharbor.io
   - https://velero.io
   - https://projectcontour.io
   - https://sonobuoy.io
   - https://octant.dev
-- Organizing and facilitating community meetings for open source projects on a regular cadence
-- Leading community efforts within the Kubernetes community to onboard new contributors en masse as part of the leadership team for the Kubernetes Contributor Summit.
+- Organized and facilitated community meetings for open source projects on a regular cadence
+- Led community efforts within the Kubernetes community to onboard new contributors en masse as part of the leadership team for the Kubernetes Contributor Summit.
   - Kubernetes Contributor Summit Lead at KubeCon Barcelona 2019
   - Kubernetes Contributor Summit Marketing Lead at KubeCon San Diego 2019
 

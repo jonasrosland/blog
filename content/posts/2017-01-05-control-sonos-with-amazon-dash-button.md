@@ -12,7 +12,6 @@ image:
 date: 2017-01-05
 slug: control-sonos-with-amazon-dash-button
 url: /control-sonos-with-amazon-dash-button
-image: /images/amazon_dash_button_and_sonos.jpg
 ---
 
 Lately I've been tinkering with home automation, and I wanted to see if I could do something smart

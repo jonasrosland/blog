@@ -11,7 +11,6 @@ image:
   credit: Martin Abegglen
   creditlink: https://commons.wikimedia.org/wiki/File:Dairy_cows_on_pasture_in_Ireland.jpg
 date: 2016-03-15
-image: /images/Dairy_cows_on_pasture_in_Ireland-resize.png
 slug: vendor-lock-in-is-real-but-silly
 url: /vendor-lock-in-is-real-but-silly
 ---

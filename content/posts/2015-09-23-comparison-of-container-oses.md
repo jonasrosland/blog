@@ -11,7 +11,6 @@ image:
   credit: Image Editor on Flickr
   creditlink: https://www.flickr.com/photos/11304375@N07/2818891443/in/photostream/
 date: 2015-09-23
-image: /images/planets-resize.jpg
 slug: comparison-of-container-oses
 url: /comparison-of-container-oses
 ---

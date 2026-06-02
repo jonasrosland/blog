@@ -1,0 +1,18 @@
+{
+  "name": "jonasrosland-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "hugo --minify",
+    "generate-resume-pdf": "node scripts/generate-resume-pdf.mjs",
+    "build:site": "npm run build && npm run generate-resume-pdf"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^133.0.0",
+    "puppeteer": "^24.0.0",
+    "puppeteer-core": "^24.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
