@@ -34,6 +34,7 @@
     <header class="resume-header">
       <div class="resume-header-main">
         <div class="resume-name">{{ $author.name }}</div>
+        {{ with .Params.headline }}<div class="resume-headline">{{ . }}</div>{{ end }}
         <nav class="resume-social" aria-label="Social profiles">
           {{ range $social }}
             <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="resume-social-link">
