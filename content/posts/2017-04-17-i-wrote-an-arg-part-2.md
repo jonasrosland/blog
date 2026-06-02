@@ -12,7 +12,6 @@ image:
 date: 2017-04-17
 slug: i-wrote-an-arg-part-2
 url: /i-wrote-an-arg-part-2
-image: /images/Repro_Smoking_Spaceman_Robot_–_Ha_Ha_Toy_–_Silver_-_Close_Up_1-cropped.jpg
 ---
 
 _This is a multi-part blog series. This is part 2._

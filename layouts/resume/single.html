@@ -1,0 +1,65 @@
+{{ $author := hugo.Data.author }}
+{{ $photo := .Params.image | default $author.image }}
+{{ $social := hugo.Data.social.links }}
+{{ $parts := split .Content "<h2" }}
+{{ $pdf := "files/jonas-rosland-resume.pdf" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ $author.name }} — Résumé</title>
+  <meta name="description" content="{{ .Description | default (printf "Professional résumé for %s." $author.name) }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta property="og:title" content="{{ $author.name }} — Résumé">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:description" content="{{ .Description }}">
+  {{ with $photo }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  <link rel="stylesheet" href="{{ "css/resume.css" | relURL }}">
+</head>
+<body class="resume-page">
+  <h1 class="sr-only">{{ $author.name }} — Résumé</h1>
+
+  <div class="resume-toolbar">
+    <a class="resume-toolbar-back" href="{{ "/" | relURL }}">← {{ site.Title }}</a>
+    <div class="resume-toolbar-actions">
+      <a href="{{ $pdf | relURL }}" class="resume-btn" download="Jonas-Rosland-Resume.pdf">
+        Download PDF
+      </a>
+    </div>
+  </div>
+
+  <article class="resume-wrap">
+    <header class="resume-header">
+      <div class="resume-header-main">
+        <div class="resume-name">{{ $author.name }}</div>
+        <nav class="resume-social" aria-label="Social profiles">
+          {{ range $social }}
+            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="resume-social-link">
+              <img src="{{ .image | relURL }}" alt="{{ .name }}" width="20" height="20">
+              <span>{{ .name | title }}</span>
+            </a>
+          {{ end }}
+        </nav>
+      </div>
+      {{ with $photo }}
+        <div class="resume-photo">
+          <img src="{{ . | relURL }}" alt="Photo of {{ $author.name }}" width="140" height="140">
+        </div>
+      {{ end }}
+    </header>
+    <div class="resume-content">
+      {{ if gt (len $parts) 1 }}
+        {{ index $parts 0 | safeHTML }}
+        {{ range after 1 $parts }}
+          {{ printf "<section class=\"resume-job\"><h2%s</section>" . | safeHTML }}
+        {{ end }}
+      {{ else }}
+        {{ .Content }}
+      {{ end }}
+    </div>
+    <footer class="resume-footer">{{ site.Title }}</footer>
+  </article>
+</body>
+</html>

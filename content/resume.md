@@ -1,13 +1,13 @@
 ---
-title: "About me"
+title: "Résumé"
+type: resume
+description: "Professional résumé for Jonas Rosland — open source community leader and developer advocate."
 image: "images/jonasrosland.jpg"
-weight: 8
 ---
 
 ### Contact methods in order of preference:
  - [jonas.rosland@gmail.com](mailto:jonas.rosland@gmail.com)
-   - [Schedule a meeting](https://cal.com/jonasrosland)
- - [@jonasrosland](https://twitter.com/jonasrosland)
+ - [Schedule a meeting on cal.com](https://cal.com/jonasrosland)
 
 # Work and leadership experience
 
@@ -19,8 +19,7 @@ Managing Sysdig's open source messaging, investments, and presence at events suc
 Responsible for delivering IRL and online hands-on workshops for Falco, giving everyone a hands-on experience with Falco and its ecosystem.
 Gathering and organizing open source community data into useful metrics using CommonRoom and Scarf. 
 
-Major accomplishments:
-
+#### Major accomplishments
 - Building out Sysdig's go-to-market strategy for Falco Feeds, and enabling the entire salesforce through messaging exercises and online training modules.
 - Organizing and financing a [significant monetary donation to the Linux Foundation of $70,000](https://www.sysdig.com/press-releases/sysdig-celebrates-falco-10-year-anniversary-with-donation) for use within the Falco project to enable:
   - **Feature development grants** to speed the delivery of new capabilities
@@ -32,7 +31,7 @@ Major accomplishments:
 
 Leading community development and engagement initiatives focused on building the Cosmos Community around VAST Data's technology ecosystem. Responsible for creating developer and DevOps-focused educational content, hands-on workshops, and technical labs that enable developers, DevOps engineers, and data professionals to effectively adopt and contribute to VAST Data's platform.
 
-Major accomplishments:
+#### Major accomplishments
 
 - Building and scaling the Cosmos Community, a customer-focused community around the VAST Data platform
 - Developing comprehensive developer and DevOps education programs including hands-on workshops and technical labs
@@ -44,7 +43,7 @@ Major accomplishments:
 
 Part of the team responsible for community engagement and development efforts for the Rocky Linux community, focusing on building and nurturing a vibrant open source ecosystem around the Rocky Linux distribution. Worked to strengthen community relationships, improve contributor onboarding, and enhance the overall community experience for Rocky Linux users and contributors.
 
-Major accomplishments:
+#### Major accomplishments
 
 - Developed strategies to improve contributor onboarding and community participation
 - Created content and resources to help users and contributors better understand and contribute to Rocky Linux
@@ -59,7 +58,7 @@ My team operates under one guiding principle: Community first. We ensure open so
 
 [Our processes around open source guidelines and community health checks are now open sourced and shared with the community.](https://github.com/vmware-tanzu/community-engagement)
 
-Major accomplishments:
+#### Major accomplishments
 
 - Building a diverse team of open source community managers and technical documentation writers, across 3 continents and 8 time zones.
 - Learning, practicing, and fine-tuning how to ease the team’s anxiety during change, reorganizations, and shifting priorities.
@@ -82,7 +81,7 @@ Hit Save! is a registered 501(c)(3) non-profit dedicated to the preservation of 
 As part of the Open Source Community Engagement team at VMware, I led the creation and execution of open source community health guidelines and metrics.
 This was done as part of the transformation of VMware into a more open source-focused organization.
 
-Major accomplishments:
+#### Major accomplishments
 
 - Creating and executing on open source community engagement strategies, guidelines, and measurements, to grow projects and teams into positive contributors in the open source space
 - Planning, leading development contractors, and launch of multiple public websites for open source projects:

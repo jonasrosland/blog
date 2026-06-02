@@ -10,7 +10,6 @@ image:
   feature: raspberry_pi3.png
   credit: Jonas Rosland
 date: 2016-11-11
-image: /images/raspberry_pi3.png
 ---
 
 In the past year and a half I've seen some really cool things come from people

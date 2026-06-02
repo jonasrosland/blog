@@ -10,7 +10,6 @@ image:
   feature: docker-boston-birthday-cake.jpg
   credit: Jonas Rosland
 date: 2017-03-21
-image: /images/docker-boston-birthday-cake.jpg
 slug: docker-4th-birthday
 url: /docker-4th-birthday
 ---

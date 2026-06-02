@@ -1,9 +1,9 @@
 {
   "links": [
     {
-      "name": "twitter",
-      "url": "https://twitter.com/jonasrosland",
-      "image": "images/social/twitter.svg"
+      "name": "bluesky",
+      "url": "https://bsky.app/profile/jonasrosland.bsky.social",
+      "image": "images/social/bluesky.svg"
     },
     {
       "name": "github",

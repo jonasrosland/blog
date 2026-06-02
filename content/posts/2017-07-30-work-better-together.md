@@ -6,7 +6,6 @@ categories:
 description: "Working across departments goes much more smoothly with these processes in place."
 tags: [open organization, book, chapter, working across organizational boundaries]
 comments: true
-image: /images/open-org-it-culture-change.jpg
 date: 2017-07-30
 slug: work-better-together
 url: /work-better-together

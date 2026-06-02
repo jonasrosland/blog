@@ -11,7 +11,6 @@ image:
   credit: CoreOS
   creditlink: http://coreos.com
 date: 2015-03-30T10:07:24-04:00
-image: /images/coreos-wordmark-horiz-color-wide.png
 slug: battle-of-the-container-oses-coreos
 url: /battle-of-the-container-oses-coreos
 ---

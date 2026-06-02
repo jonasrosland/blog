@@ -11,7 +11,6 @@ image:
   credit: Jonas Rosland - Screenshot from KSP
   creditlink: http://kerbalspaceprogram.com
 date: 2015-03-23T16:47:56-04:00
-image: /images/kss-in-space.jpg
 slug: hello-world
 url: /hello-world
 ---

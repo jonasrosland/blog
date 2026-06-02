@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: jonasrosland.com
+    runtime: static
+    buildCommand: ./scripts/render-build.sh
+    staticPublishPath: public
+    pullRequestPreviewsEnabled: true
+    envVars:
+      - key: HUGO_VERSION
+        value: 0.162.1
+      - key: NODE_VERSION
+        value: 22

@@ -12,7 +12,6 @@ image:
 date: 2017-04-05
 slug: i-wrote-an-arg-part-1
 url: /i-wrote-an-arg-part-1
-image: /images/dark-and-stormy.jpg
 ---
 
 _This is a multi-part blog series. This is part 1._
