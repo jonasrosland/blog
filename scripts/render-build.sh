@@ -30,7 +30,7 @@ git submodule update --init --recursive
 install_hugo
 
 echo "==> Installing Node dependencies"
-npm ci
+npm ci --no-fund
 
 BASE_URL="${RENDER_EXTERNAL_URL:-/}"
 if [[ "${BASE_URL}" != */ ]]; then

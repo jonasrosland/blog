@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-us"
+locale = "en-us"
 theme = "hugo-winston-theme"
 themesDir = "themes"
 title = "jonasrosland.com"
