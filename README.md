@@ -37,13 +37,12 @@ Visitors can download a pre-generated PDF from the **Download PDF** button on th
 
 ### Generate the PDF
 
-PDF export uses [Playwright](https://playwright.dev/) to render the built résumé page with print styles, so the output is consistent across browsers.
+PDF export uses headless Chromium ([puppeteer-core](https://pptr.dev/) + [@sparticuz/chromium](https://github.com/Sparticuz/chromium)) to render the built résumé page with print styles.
 
 First-time setup:
 
 ```bash
 npm install
-npx playwright install chromium
 ```
 
 After updating `content/resume.md`, rebuild the site and regenerate the PDF:
@@ -93,7 +92,7 @@ In the [Render Dashboard](https://dashboard.render.com/) for your static site:
 The build script:
 
 1. Initializes the theme git submodule
-2. Installs Hugo Extended, Node dependencies, and Playwright Chromium
+2. Installs Hugo Extended and Node dependencies (Chromium is bundled via npm)
 3. Runs `hugo --minify`
 4. Generates `static/files/jonas-rosland-resume.pdf`
 

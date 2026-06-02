@@ -2,7 +2,8 @@ import { createServer } from "node:http";
 import { readFileSync, mkdirSync, existsSync, copyFileSync } from "node:fs";
 import { dirname, extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
-import { chromium } from "playwright";
+import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
@@ -57,6 +58,28 @@ function startStaticServer(publicDir) {
   });
 }
 
+async function launchBrowser() {
+  if (process.env.CHROME_PATH) {
+    return puppeteer.launch({
+      executablePath: process.env.CHROME_PATH,
+      headless: true,
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+  }
+
+  if (process.platform === "linux") {
+    return puppeteer.launch({
+      args: chromium.args,
+      defaultViewport: chromium.defaultViewport,
+      executablePath: await chromium.executablePath(),
+      headless: chromium.headless,
+    });
+  }
+
+  const { default: puppeteerLocal } = await import("puppeteer");
+  return puppeteerLocal.launch({ headless: true });
+}
+
 async function main() {
   const publicDir = join(rootDir, config.publicDir);
   const resumeIndex = join(publicDir, config.resumePath, "index.html");
@@ -70,14 +93,14 @@ async function main() {
   mkdirSync(dirname(outputPath), { recursive: true });
 
   const { server, port } = await startStaticServer(publicDir);
-  const browser = await chromium.launch();
+  const browser = await launchBrowser();
   const page = await browser.newPage();
 
   try {
     await page.goto(`http://127.0.0.1:${port}${config.resumePath}`, {
-      waitUntil: "networkidle",
+      waitUntil: "networkidle0",
     });
-    await page.emulateMedia({ media: "print" });
+    await page.emulateMediaType("print");
     await page.pdf({
       path: outputPath,
       format: config.format,
@@ -85,13 +108,13 @@ async function main() {
       printBackground: true,
     });
     console.log(`Wrote ${config.output}`);
-  const publicOutput = join(rootDir, "public", "files", "jonas-rosland-resume.pdf");
-  if (existsSync(join(rootDir, "public"))) {
-    mkdirSync(dirname(publicOutput), { recursive: true });
-    copyFileSync(outputPath, publicOutput);
-    console.log("Copied to public/files/jonas-rosland-resume.pdf");
-  }
 
+    const publicOutput = join(rootDir, "public", "files", "jonas-rosland-resume.pdf");
+    if (existsSync(join(rootDir, "public"))) {
+      mkdirSync(dirname(publicOutput), { recursive: true });
+      copyFileSync(outputPath, publicOutput);
+      console.log("Copied to public/files/jonas-rosland-resume.pdf");
+    }
   } finally {
     await browser.close();
     await new Promise((resolve, reject) => {

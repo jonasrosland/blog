@@ -5,11 +5,12 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "${ROOT_DIR}"
 
 HUGO_VERSION="${HUGO_VERSION:-0.162.1}"
-NODE_VERSION="${NODE_VERSION:-22}"
 
 install_hugo() {
-  if command -v hugo >/dev/null 2>&1 && hugo version | grep -q "extended"; then
-    echo "Hugo extended already available: $(hugo version)"
+  local target="${HOME}/.local/hugo/hugo"
+  if [[ -x "${target}" ]] && "${target}" version | grep -q "v${HUGO_VERSION}"; then
+    echo "Hugo ${HUGO_VERSION} already installed: $("${target}" version)"
+    export PATH="${HOME}/.local/hugo:${PATH}"
     return
   fi
 
@@ -27,13 +28,9 @@ echo "==> Initializing git submodules"
 git submodule update --init --recursive
 
 install_hugo
-export PATH="${HOME}/.local/hugo:${PATH}"
 
 echo "==> Installing Node dependencies"
 npm ci
-
-echo "==> Installing Playwright Chromium"
-npx playwright install --with-deps chromium
 
 BASE_URL="${RENDER_EXTERNAL_URL:-/}"
 if [[ "${BASE_URL}" != */ ]]; then
