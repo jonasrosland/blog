@@ -1,0 +1,15 @@
+{{/* Resolves .Params.image to a static path (e.g. images/foo.png). */}}
+{{ $src := "" }}
+{{ with .Params.image }}
+  {{ if reflect.IsMap . }}
+    {{ with .feature }}{{ $src = . }}{{ end }}
+  {{ else }}
+    {{ $src = . }}
+  {{ end }}
+{{ end }}
+{{ if $src }}
+  {{ if and (not (hasPrefix $src "/")) (not (hasPrefix $src "http")) (not (hasPrefix $src "images/")) }}
+    {{ $src = printf "images/%s" $src }}
+  {{ end }}
+  {{ return $src }}
+{{ end }}

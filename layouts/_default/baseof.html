@@ -26,10 +26,8 @@
     <meta property="og:title" content="{{ .Title }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ .Permalink }}"/>
-    {{ with .Params.image }}
-      {{ $img := . }}
-      {{ if reflect.IsMap . }}{{ with .feature }}{{ $img = . }}{{ end }}{{ end }}
-      <meta property="og:image" content="{{ $img | absURL }}"/>
+    {{ with partial "post-hero-image.html" . }}
+      <meta property="og:image" content="{{ . | absURL }}"/>
     {{ end }}
     {{ if .Params.description }}<meta property="og:description" content="{{ .Params.description }}"/>{{ end }}
     <meta name="twitter:card" content="summary"/>
